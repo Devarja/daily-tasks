@@ -1,0 +1,12 @@
+H - configure and monitor nginx application using prometheus
+
+first step - 
+1) added the prometheus-community repo to the local system
+2) updated the repo using command - helm repo update prometheus-community
+3) helm install prometheus prometheus-community
+4) then created config.yaml to create nginx-stub status method to get nginx metices
+5) updated the deployment file using configmap
+6) created service.yaml using the service.yaml file
+
+
+
