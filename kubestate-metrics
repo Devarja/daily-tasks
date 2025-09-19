@@ -18,7 +18,12 @@ invvolves
 collection of opensource tools like elastci search,logstash and kibana useful for searching,analyzing and visualizing log data and other unstructred data in real time.
 
 deploying elk stack inside the kubernetes cluster.
-ans - 
+
+1) adding the elk stack
+ans - helm repo add elastic https://helm.elastic.co
+      helm repo update
+
+2)  
 
 
 
