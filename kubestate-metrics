@@ -1,0 +1,25 @@
+kubestate-metrics
+It is a service inside kubernetes cluster used to get the information about the cluster objects like pods,deployment.
+
+deployed a kubestate-metrics using the helm 
+cmd - helm install kube-state-metrics prometheus-community/kube-state-metrics --namespace monitoring
+
+aftet the instalation of the metrics we can check with the command
+
+kubectl get pods -n monitoring
+
+kubernetes % kubectl get secret --namespace monitoring prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 --decode - the command used to get password of a grafana dashboard.
+
+username - admin
+password - from the previous command
+
+2) deploy elk stack inside kubernetes cluster
+invvolves 
+collection of opensource tools like elastci search,logstash and kibana useful for searching,analyzing and visualizing log data and other unstructred data in real time.
+
+deploying elk stack inside the kubernetes cluster.
+ans - 
+
+
+
+
